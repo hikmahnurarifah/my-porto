@@ -3,7 +3,7 @@ import { Cursor } from 'react-simple-typewriter';
 
 const Typed = () => {
   const [text, setText] = useState("");
-  const words = ["Computer Science student", "Web Developer"];
+  const words = ["Computer Science student"];
   const [wordIndex, setWordIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
 
